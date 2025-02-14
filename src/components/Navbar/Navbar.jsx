@@ -4,13 +4,13 @@ const Navbar = () => {
   const links = (
     <>
       <li>
-        <Link>Home</Link>
+        <Link to={"/"}>Home</Link>
       </li>
       <li>
         <Link>All Images</Link>
       </li>
       <li>
-        <Link>Generate Images</Link>
+        <Link to={"/generate"}>Generate Images</Link>
       </li>
     </>
   );
